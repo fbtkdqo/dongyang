@@ -1,125 +1,152 @@
+
 <!DOCTYPE html>
+
 <html>
+
 <head>
+
+	<title>유로피안</title>
+
 	<style>
-	*{
-		padding: 0;
-		margin: 0;
+
+	body{
+
+		background-image: url(./Europe/img/Europe.jpg);
+
+		background-size: 100% 1000px;
+
 	}
-	.clear{
-		clear:both;
+
+	h1{
+
+		font-size: 100%;
+		text-align: center;
+
 	}
-	header{
-		width:1000px;
-		height:100px;
-		margin-top:10px;
-		border:solid 1px #cccccc;
+
+
+	div, ul, li { margin:0; padding:0; }
+	a{
+		height:16px;
+	color:#000000;
+	font-family:arial;
+	font-size: 800%;
+	padding:0 10px 0 10px;
+	text-decoration:none;
 	}
-	#logo{
-		margin-top: 20px;
-		float:left;
-	}
-	#top{
-		float: right;
-		margin: 30px 20px 0 0;
-	}
-	nav{
-		width : 1000px;
-		height: 70px;
-		margin-top: 10px;
-		border: solid 1px #cccccc;
-	}
-	nav li{
-		float: left;
-		margin: 20px 50px;
-	}
-	li{
-		list-style-type: none;
-	}
-	section{
-		float: left;
-		margin-top: 10px;
-		border: solid 1px #cccccc;
-	}
-	aside{
-		float: left;
-		margin-left: 30px;
-		margin-top: 10px;
-		border: solid 1px #cccccc;
-		padding: 25px;
-	}
-	aside li{
-		margin-bottom: 20px;
-	}
-	footer{
-		width: 1000px;
-		height:100px;
-		margin-top: 10px;
-		border: solid 1px #cccccc;
-	}
-	#address{
-		float: left;
-		margin:30px 0 0 20px;
-	}
-	#customer{
-		float: right;
-		margin: 30px 0 0 180px;
-	}
-	#page{
-		width: 1000px;
-		margin: auto;
-		//border: solid 1px red;
-	}
+
+
+#Menu {
+	float:center;
+	margin:0px 5px 3px 5px;
+	padding:0 0 10px 0;
+	border-radius: 3px;
+	background-color:#000000;
+}
+
+#Menu ul li {
+	float:left;
+	list-style-type:none;
+}
+
+#Menu a {
+	margin-right: 35px;
+	margin-left: 35px;
+	height:16px;
+	color:#f1f1f1;
+	font-family:arial;
+	font-size:36px;
+	padding:0 10px 0 10px;
+	text-decoration:none;
+}
+#Menu ul ul {
+box-shadow: 0px 0px 50px rgba(500,500,500,.6);
+-moz-box-shadow: 0px 0px 50px rgba(500,500,500,.6);
+-webkit-box-shadow: 0px 0px 50px rgba(500,500,500,.6);
+-o-box-shadow: 0px 0px 50px rgba(500,500,500,.6);
+background-color:;
+}
+
+#Menu a:hover {
+	color:#ffffff;
+	border-bottom:3px solid ;
+}
+
+#Menu ul ul {
+	display:none;
+	position:absolute;
+	background-color:;
+}
+
+#Menu ul li:hover ul {
+	display: block;
+}
+
+#Menu ul ul li {
+	float:none;
+}
+#L1{
+	margin-left: 150px;
+}
+
+#line1{
+	font-size:18px;
+	color: #ffffff;
+}
+
 </style>
-	<title></title>
+
+
+
+</style>
+
 </head>
+
 <body>
-<div id ='page'>
-<header>
-<div id='logo'>
-봄 여행 주간 4.27~5.12
-</div>
-<div id='top'>
-	로그인 | 회원가입 | 마이페이지 | 고객센터
-</div>
-</header>
-<div class='clear'></div>
-<nav>
+
+ 
+
+	<h1><a href="index.html">T H E &nbsp;&nbsp;E U R O P E A N</a></h1>
+
+
+<div id="Menu">
+<ul>
+
+<li id="L1"><h2><a>Northern Europe</a></h2>
 	<ul>
-		<li>여행주간이란?</li>
-		<li>여행주간프로그램</li>
-		<li>여행정보</li>
-		<li>특별혜택</li>
-		<li>이벤트</li>
+		<li><a href="./Europe/d.html">Norway</a></li>
+		<li><a href="#">Sub Menu 2</a></li>
+		<li><a href="#">Sub Menu 3</a></li>
 	</ul>
-</nav>
-<section>
-	<img src='./image/c3.PNG' width="700" >
-</section>
-<aside>
-    <ul>
-	    <li>마을여행</li>
-	    <li>핵심혜택</li>
-	    <li>이벤트</li>
-	    <li>대한민국 구석구석</li>
+</li>
+<li id="line1"><h2> | </h2></li>
+<li><h2><a>South Europe</a></h2>
+	<ul>
+		<li><a href="#">Sub Menu 1</a></li>
+		<li><a href="#">Sub Menu 2</a></li>
+		<li><a href="#">Sub Menu 3</a></li>
 	</ul>
-</aside>
-<section class='clear'>
-	<img src='./image/c1.PNG' width='220'>
-	<img src='./image/c2.PNG' width='220'>
-	<img src='./image/c4.PNG' width='220'>
-	<img src='./image/c5.PNG' width='220'>
-</section>
-<div class='clear'></div>
-<footer>
-	<div id='address'>
-		주최: 문화체육관광부<br>
-		주관: 한국관광공사,한국관광협회중앙회,전국지방자체단체
-	</div>
-	<div id='customer'>
-		관광안내전화:국번없이 1330
-	</div>
-</footer>
+</li>
+<li id="line1"><h2> | </h2></li>
+<li><h2><a>East Europe</a></h2>
+	<ul>
+		<li><a href="#">Sub Menu 1</a></li>
+		<li><a href="#">Sub Menu 2</a></li>
+		<li><a href="#">Sub Menu 3</a></li>
+	</ul>
+</li>
+<li id="line1"><h2> | </h2></li>
+<li><h2><a>West Europe</a></h2>
+	<ul>
+        <li id="sub"><a href="#">Sub Menu 1</a></li>
+        <li id="sub"><a href="#">Sub Menu 2</a></li>
+        <li id="sub"><a href="#">Sub Menu 3</a></li>
+    </ul>
+</li>
+</ul>
 </div>
 </body>
+
 </html>
+
+
