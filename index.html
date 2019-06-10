@@ -103,6 +103,19 @@ background-color:;
 </head>
 
 <body>
+	<form method="post" id="authForm">
+  <div>
+    <label for="loginId">아이디</label>
+    <input id="loginId" name="loginId" placeholder="ID" >
+    <label for="loginPw">비밀번호</label>
+    <input type="password" id="loginPw" name="password" placeholder="Password" >
+	   <button type="submit"  disabled="disabled">로그인</button>
+  </div>
+  <div>
+    <input type="checkbox" id="keepLogin" name="keepLogin">
+    <label for="keepLogin"><span>로그인 상태 유지</span></label>
+  </div>
+</form>
 
  
 
